@@ -1,0 +1,23 @@
+
+.container {
+    display: flex;
+}
+
+.blue {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(85, 197, 235);
+}
+
+.white {
+    height: 100px;
+    width: 100px;
+    background-color: white;
+}
+
+.blue1 {
+    height: 100px;
+    width: 100px;
+    background-color: rgb(85, 197, 235);
+}
+
