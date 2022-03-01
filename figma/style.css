@@ -1,0 +1,82 @@
+.square {
+    width: 40px;
+    height: 40px;
+    border-radius: 3px;
+}
+
+.container1 {
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.container2 {
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.container3 {
+    display: flex;
+    justify-content: space-around;
+    width: 340px;
+    margin-bottom: 20px;
+}
+
+.gray1 {
+    background-color: #333333;
+}
+.gray2 {
+    background-color: #4f4f4f;
+}
+.gray3 {
+    background-color: #828282;
+}
+.gray4 {
+    background-color: #bdbdbd;
+}
+.gray5 {
+    background-color: #e0e0e0;
+}
+.gray6 {
+    background-color: #f2f2f2;
+}
+
+.red {
+    background-color: #eb5757;
+}
+.orange {
+    background-color: #f2994a;
+}
+.yellow {
+    background-color: #f2c94c;
+}
+.green1 {
+    background-color: #219653;
+}
+.green2 {
+    background-color: #27ae60;
+}
+.green3 {
+    background-color: #6fcf97;
+}
+
+.blue1 {
+    background-color: #2f80ed;
+}
+.blue2 {
+    background-color: #2d9cdb;
+}
+.blue3 {
+    background-color: #56ccf2;
+}
+.purple1 {
+    background-color: #9b51e0;
+}
+.purple2 {
+    background-color: #bb6bd9;
+}
+
+/* я просто хочу написать коммит*/
