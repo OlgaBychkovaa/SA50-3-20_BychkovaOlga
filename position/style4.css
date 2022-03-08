@@ -1,0 +1,24 @@
+ .green {
+    background-color: mediumspringgreen;
+    width: 98vw;
+    height: 97.5vh;
+}
+ .white1 {
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 100px;
+    left: 100px;
+    width: 200px;
+    height: 200px;
+ }   
+.white2 {
+    background-color: white;
+    z-index: 1;
+    position: relative;
+    top: 250px;
+    left: 1200px;
+    width: 200px;
+    height: 200px;
+}
+
