@@ -1,0 +1,7 @@
+.news {
+    position: sticky;
+    top: 0;
+    background-color: rgb(165, 211, 0);
+    width: 205vh;
+    height: 100px;
+}
