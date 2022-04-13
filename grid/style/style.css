@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Six+Caps&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@400;500&family=Six+Caps&display=swap');
+    
+.main_scren {
+    background-color: #FFFFFF;
+    height: 1200px;
+}
+.header {
+    position: relative;
+    background-color: #FFFFFF;
+    height: 105px;
+    width: 1440px;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    left: calc(50% - 1440px/2);
+    overflow: visible;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.07);
+}
+
+.logo {
+    position: absolute;
+    left: 66px;
+    font-family: 'Six Caps';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 84px;
+    color: #000000;
+}
+.nav_menu {
+    position: absolute;
+    font-family: 'Oswald';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 24px;
+    line-height: 36px;
+}
+.nav1 {
+    margin-right: 64px;
+}   
+
+.content {
+    position: absolute;
+    top: 141px;
+    left: 65px;
+    right: 65px;
+    bottom: 34px;
+    display: grid;
+    grid-template-areas:
+    "G G F F   D D C C"
+    "G G F F   D D C C"
+    "G G K K   D D C C"
+    "L L K K   D D C C"
+    "L L K K   A A A A"
+    "B B B B   A A A A"
+    ;
+    column-gap: 11px;
+    row-gap: 12.5px;
+}
+.i_1 {
+    grid-area: A;
+}
+.i_2 {
+    grid-area: B;
+}
+.i_3 {
+    grid-area: C;
+}
+.i_4 {
+    grid-area: D;
+}
+.i_5 {
+    grid-area: F;
+}
+.i_6 {
+    grid-area: G;
+}
+.i_7 {
+    grid-area: K;
+}
+.i_8 {
+    grid-area: L;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+    }
+* {
+        margin: 0;
+        padding: 0;
+    }
